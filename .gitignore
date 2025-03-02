@@ -169,3 +169,18 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+*.sql
+*.sh
+*.csv
+*.png
+*.txt
+*.parquet
+*.ipynb
+*.json
+*.pkl
+.DS_Store
+.idea
+scripts
+cache_and_ckp
+data
