@@ -14,7 +14,7 @@ pip install -r requirements.txt
 
 ## Run examples
 
-[./playground/scripts/run_examples][2]
+[./playground/run_examples][2]
 
 [1]: https://chenghao.pages.dev/papers/vldb25-lyu-tr.pdf
-[2]: .playground/scripts/run_examples.py
+[2]: ./playground/run_examples
