@@ -2,7 +2,7 @@
 
 This repository is the source code for the paper
 
-"Graph Transformers for Query Plan Representation: Potentials and Challenges", from Chenghao Lyu, Guillaume Lachaud, Yanlei Diao, with tech report available [here][1].
+"Graph Transformers for Query Plan Representation: Potentials and Challenges", from Chenghao Lyu, Guillaume Lachaud, Yanlei Diao, Gabriel Lozano with tech report available [here][1].
 
 ## Install
 
