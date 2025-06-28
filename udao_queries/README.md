@@ -34,5 +34,23 @@ pixi run main --help
 This will show several endpoints that you may understand by running
 
 ```bash
-pixi run main snowflake --help
+pixi run main param-search --help
 ```
+
+## Generating Snowflake TPCDS and LLM TPCDS
+To generate the snowflake and the LLM dataset we follow the following diagram
+![image](https://github.com/user-attachments/assets/36009caa-f2bf-421a-8526-3018c3dcfc23)
+
+```bash
+cd udao_queries
+pixi run main param-search -c path/to/config
+pixi run main --csv path/to/generated_queries/TPCDS_batches.csv --dataset TPCDS --destination some/folder
+pixi run main complex_queries -c path/to/config
+```
+
+You can find the configs used on `udao_queries/params_config`
+
+
+
+
+
