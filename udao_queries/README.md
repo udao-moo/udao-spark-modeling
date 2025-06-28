@@ -6,8 +6,8 @@
 
 # Installation
 We use two tools
-1. Pixi
-2. Ollama
+1. [Pixi](#pixi)
+2. [Ollama](#ollama)
 
 ## Pixi
 We use [pixi](https://pixi.sh/latest/#installation) to install 
