@@ -16,5 +16,9 @@ pip install -r requirements.txt
 
 [./playground/run_examples][2]
 
+## SQL queries used
+The data for the datasets of TPCDS and JOB can be found in [this link](https://www.dropbox.com/scl/fi/8dywzrc7rz77tvveh47yv/queries_ch7.tar.gz?rlkey=8ga5icgu8gksc0opfrdm8nrak&st=qa2tngof&dl=0).
+
+
 [1]: https://chenghao.pages.dev/papers/vldb25-lyu-tr.pdf
 [2]: ./playground/run_examples
