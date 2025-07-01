@@ -1,0 +1,31 @@
+benchmark = "job"
+q_type = "q_compile"
+# training parameters
+init_lr = 3e-3
+min_lr = 1e-7
+weight_decay = 1e-2
+loss_weights = [1, 0]
+epochs = 300
+batch_size = 1024
+num_workers = 28
+# Graph model
+lpe_size = 8
+output_size = 128
+vec_size = 16
+gtn_n_layers = 3
+gtn_n_heads = 4
+gtn_dropout = 0.1
+# Regressor params
+dropout = 0.1
+n_layers = 4
+hidden_dim = 256
+activate = "relu"
+# Node encodings
+op_groups = ["type", "cbo", "op_enc", "hist", "bitmap"]
+pos_encoding_dim = 8
+use_batchnorm = false
+# first external benchmark
+data_percentage = 30
+benchmark_ext = "job-extv2"
+ext_data_amount = 20000
+attention_layer_name = "GAT_MASKED"

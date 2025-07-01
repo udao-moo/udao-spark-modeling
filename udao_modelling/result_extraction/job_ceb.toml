@@ -1,0 +1,5 @@
+path = "/home/guillaume/data/udao-spark-optimizer/job+ceb-imdb-full_100000x1+13646x1/q_compile/ea0378f56dcf_30"
+output_path = "/home/guillaume/data/training_results/job-ceb.parquet"
+test_glob = "**/obj_df_job_original_with_test_latenc*.pkl"
+base_path = "/home/guillaume/data/udao-spark-optimizer/job+ceb-imdb-full_100000x1+13646x1/q_compile"
+
